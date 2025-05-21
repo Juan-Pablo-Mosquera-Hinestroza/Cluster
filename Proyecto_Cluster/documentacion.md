@@ -1,5 +1,14 @@
 # Implementación de un Clúster de Conmutación por Error en Windows Server 2025 con SQL Server 2022
 
+
+**Autores:**
+
+- Samuel David Montenegro Gómez
+- Juan Pablo Mosquera Hinestroza
+- Juan David Vidal Canizales
+
+
+
 ## Introducción
 
 Los sistemas informáticos empresariales modernos exigen altos niveles de disponibilidad y fiabilidad, especialmente en servicios críticos como bases de datos. La interrupción de estos servicios puede causar pérdidas económicas, daño reputacional y baja productividad. En este contexto, los clusters de conmutación por error se han vuelto esenciales para infraestructuras de TI robustas.
@@ -244,12 +253,3 @@ Como se ve, se puede mover el rol del SQLCLUSTERSERVER entre los nodos sin probl
 La implementación del clúster de conmutación por error en Windows Server 2025 con SQL Server 2022 permitió garantizar la alta disponibilidad y la tolerancia a fallos de los servicios críticos de bases de datos. Se logró configurar correctamente el almacenamiento compartido, el Quorum, la instalación de SQL Server en modo clúster, la gestión de usuarios y la creación de la base de datos, así como la validación de la conmutación de roles entre nodos. El sistema resultante asegura la continuidad operativa y minimiza el tiempo de inactividad ante fallos, cumpliendo con los objetivos de resiliencia y robustez requeridos en entornos empresariales.
 
 ---
-
-**Autores:**
-
-- Samuel David Montenegro Gómez
-- Juan Pablo Mosquera Hinestroza
-- Juan David Vidal Canizales
-
-**Institución Universitaria Antonio José Camacho**
-Facultad de Ingenierías, Ingeniería en Sistemas, 2025
