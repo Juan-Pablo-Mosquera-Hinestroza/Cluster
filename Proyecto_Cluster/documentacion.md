@@ -4,7 +4,7 @@
 
 Los sistemas informáticos empresariales modernos exigen altos niveles de disponibilidad y fiabilidad, especialmente en servicios críticos como bases de datos. La interrupción de estos servicios puede causar pérdidas económicas, daño reputacional y baja productividad. En este contexto, los clusters de conmutación por error se han vuelto esenciales para infraestructuras de TI robustas.
 
-Windows Server 2022 ofrece capacidades avanzadas para implementar clusters de conmutación por error, permitiendo que los servicios críticos sigan funcionando incluso si uno de los nodos falla. Este trabajo explora la implementación práctica de esta tecnología para garantizar la alta disponibilidad de servicios SQL Server, mostrando cómo configurar, administrar y mantener un entorno de cluster eficiente.
+Windows Server 2025 ofrece capacidades avanzadas para implementar clusters de conmutación por error, permitiendo que los servicios críticos sigan funcionando incluso si uno de los nodos falla. Este trabajo explora la implementación práctica de esta tecnología para garantizar la alta disponibilidad de servicios SQL Server, mostrando cómo configurar, administrar y mantener un entorno de cluster eficiente.
 
 La relevancia de este estudio radica en proporcionar una guía aplicada para profesionales de TI que buscan fortalecer la resiliencia de sus infraestructuras de servidor y bases de datos, contribuyendo así a la continuidad del negocio en entornos donde el tiempo de inactividad no es una opción viable.
 
