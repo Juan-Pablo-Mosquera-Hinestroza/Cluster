@@ -4,7 +4,7 @@
 
 Los sistemas informáticos empresariales modernos exigen altos niveles de disponibilidad y fiabilidad, especialmente en servicios críticos como bases de datos. La interrupción de estos servicios puede causar pérdidas económicas, daño reputacional y baja productividad. En este contexto, los clusters de conmutación por error se han vuelto esenciales para infraestructuras de TI robustas.
 
-Windows Server 2025 ofrece capacidades avanzadas para implementar clusters de conmutación por error, permitiendo que los servicios críticos sigan funcionando incluso si uno de los nodos falla. Este trabajo explora la implementación práctica de esta tecnología para garantizar la alta disponibilidad de servicios SQL Server, mostrando cómo configurar, administrar y mantener un entorno de cluster eficiente.
+Windows Server 2022 ofrece capacidades avanzadas para implementar clusters de conmutación por error, permitiendo que los servicios críticos sigan funcionando incluso si uno de los nodos falla. Este trabajo explora la implementación práctica de esta tecnología para garantizar la alta disponibilidad de servicios SQL Server, mostrando cómo configurar, administrar y mantener un entorno de cluster eficiente.
 
 La relevancia de este estudio radica en proporcionar una guía aplicada para profesionales de TI que buscan fortalecer la resiliencia de sus infraestructuras de servidor y bases de datos, contribuyendo así a la continuidad del negocio en entornos donde el tiempo de inactividad no es una opción viable.
 
@@ -40,9 +40,9 @@ Implementar y configurar un cluster de conmutación por error en Windows Server 
    - ![Roles del servidor](Imagenes/Samuel/Roles_del_servidor.png)
 
 4. **Instalación y configuración del dominio:**
-   - Espera la confirmación de la instalación.
+   - Espera la confirmación de la instalación, como se ve en el ejemplo:
    - ![Proceso de instalación](Imagenes/Samuel/5._proceso_de_instalacion.png)
-   - Configura el dominio desde el icono de la bandera.
+   - Configura el dominio desde el icono de la bandera, como se ve en el ejemplo:
    - ![Configuraciones del Dominio](Imagenes/Samuel/Ilustracion_7_Configuraciones_del_Dominio.png)
    - ![Propiedades del servidor](Imagenes/Samuel/Ilustracion_8_Propiedades_del_servidor.png)
    - Revisa las propiedades del servidor.
@@ -98,11 +98,11 @@ Implementar y configurar un cluster de conmutación por error en Windows Server 
    - ![Proceso de instalación](Imagenes/Samuel/Ilustracion_26_Proceso_de_instalacion.png)
 
 2. **Crear y asignar destino ISCSI:**
-   - Selecciona la partición creada y asígnale un tamaño de 1GB.
+   - Selecciona la partición creada y asígnale un tamaño de 1GB, como se ve en el ejemplo:
    - ![Nuevo Destino](Imagenes/Samuel/Ilustracion_27_Nuevo_Destino.png)
    - ![IQN](Imagenes/Samuel/Ilustracion_31_IQN.png)
 
-3. **Agregar destino ISCSI a las máquinas:**
+3. **Agregar destino ISCSI a las máquinas, ejemplo:**
    - ![Sharing (E)](Imagenes/Samuel/Ilustracion_28_Sharing__E_.png)
    - ![Nombre del disco](Imagenes/Samuel/Ilustracion_29_Nombre_del_disco.png)
    - ![Tamaño del disco](Imagenes/Samuel/Ilustracion_30_Tamano_del_disco.png)
@@ -123,7 +123,7 @@ Implementar y configurar un cluster de conmutación por error en Windows Server 
 5. **Repetir proceso en la segunda máquina cliente.**
 
 6. **Crear un nuevo disco virtual ISCSI:**
-   - Repite el proceso, asigna nombre y tamaño (23GB).
+   - Repite el proceso, asigna nombre y tamaño (23GB), ejemplo:
    - ![Nuevo Disco](Imagenes/Samuel/Ilustracion_39_Nuevo_Disco.png)
    - ![Asignación de disco](Imagenes/Samuel/Ilustracion_40_Asignacion_de_disco.png)
    - ![Nombre del disco](Imagenes/Samuel/Ilustracion_41_Nombre_del_disco.png)
@@ -144,6 +144,7 @@ Implementar y configurar un cluster de conmutación por error en Windows Server 
    - ![Proceso de instalación](Imagenes/Samuel/Ilustracion_48_Proceso_de_instalacion.png)
    - ![Gui del cluster](Imagenes/Samuel/Ilustracion_49_Gui_del_cluster.png)
    - ![Despliegue del Cluster](Imagenes/Samuel/Ilustracion_50_Despliegue_del_Cluster.png)
+   - Ejemplo:.
    - ![Nodos del Cluster](Imagenes/Samuel/Ilustracion_51_Nodos_del_Cluster.png)
 
 2. **Crear el clúster:**
